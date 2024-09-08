@@ -5,7 +5,7 @@
 }
 
 .offer{
-    height: 50px;
+    height: 5vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -21,26 +21,38 @@
 }
 
 .nav{
-    height:3.5rem;
+    height:3.6rem;
     width: 100vw;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    position: sticky;
+    top: 0px;
+    
 }
 .nav h5{
     margin: 0px 1.5rem;
     font-size: 1.2rem;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .nav input{
     margin: 1.5rem 0.5rem 1.5rem 1.5rem;
+    padding: 2px 8px;
     width: 20%;
+    cursor: text;
 }
+
+.nav span:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 .display{
-    height: 50vh;
+    height: 51vh;
     /* background-color: blanchedalmond; */
     background-image:url(https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg);
     background-position: center;
@@ -48,44 +60,153 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-left: 5%;    
+    padding-left: 10%;    
 }
 
 .sale{
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.539);
-    width: 70%;
-    height: 55%;
+    background-color: rgba(33, 33, 33, 0.539);
+    width: 62%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     padding-left: 1%;
     color: white;
+    border-radius: 5px;
 } 
 
 .sale h1{
     margin:2% 2% 0 2% ;
-    font-size: 2.2rem;
+    font-size: 1.9rem;
 }
 
 .sale p{
     margin: 0 2% 2% 2%;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .product{
     height: 35vh;
     width: 100vw;
-    background-color: rgb(171, 170, 170);
+    background-color: rgb(229, 227, 227);
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
 }
 
-.
+.product-catelog{
+    width: 90%;
+    height: 70%;
+    background-color: rgba(32, 32, 32, 0.38); 
+    display: flex;
+    justify-content: center; 
+    align-items: start;
+    flex-direction: column;  
+    padding-left: 1.0rem;
+    
+}
 
+.product-item{
+    height: 70%;
+    width: 99%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
 
+.product1{
+    width: 8%;
+    height: 95%;
+    background-color: rgba(54, 53, 53, 0.824);
+    margin-left: 0.5%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border: 1px solid black;
+}
+
+.product1 img{
+    height: 80%;
+    width: 100%;
+}
+
+.product1 p{
+    text-align: center;
+    padding: 2px;
+}
+
+.details{
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(88,88,88);
+    background: linear-gradient(90deg, rgba(88,88,88,1) 0%, rgba(0,0,0,1) 100%);  
+
+}
+.content{
+    height: 80%;
+    width: 85%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(249,38,12,1) 100%); 
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);   
+    
+}
+
+.leftItem{
+    width: 48%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: start;
+    align-items: start;
+    color: white;
+}
+
+.leftItem h1{
+    font-size: 2.0rem;
+}
+
+.leftItem p{
+    font-size: 1.2rem;
+    width: 85%;
+}
+
+.rightItem{
+    width: 48%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+
+.rightItem img{
+    height: 50%;
+    width: 40%;
+    border-radius: 100%;
+    box-shadow: 10px 5px 15px white;
+    transform: scale(1.5);
+
+}
+
+.rightItem img:hover{
+    transform: scale(1.8);
+    cursor: zoom-in;
+}
 
 
